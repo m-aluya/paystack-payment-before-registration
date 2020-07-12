@@ -8,7 +8,9 @@ session_start();
  * Next step is the registration function. Its takes the data stored in $_SESSION['accountForm'] and save them into the database.
  * you should write your query inside the function.
  * 
- * When payment is made and is successful, the registration 
+ * When payment is made and is successful, the registration is done.
+ * Finally, when registrationis successful, a modal is shown.
+ * Customize modal's message to what you want.
  */
 
 if (isset($_POST['account'])) {
