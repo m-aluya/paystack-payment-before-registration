@@ -72,7 +72,7 @@ if (isset($_POST['account'])) {
                               });
 
                               let handler = PaystackPop.setup({
-                                  key: 'pk_test_cfd6325629ab336f9a3e715cd0ec4f3bf8bb4e55', // Replace with your public key
+                                  key: 'pk_test_xxxxxxxxxx', // Replace with your public key
                                   email: document.getElementById("email-address").value,
                                   amount: document.getElementById("amount").value * 100,
                                   firstname: document.getElementById("first-name").value,
